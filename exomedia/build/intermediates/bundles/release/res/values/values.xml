@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="exomedia_default_controls_button_disabled">#FF757575</color>
+    <color name="exomedia_default_controls_button_normal">#FFFFFFFF</color>
+    <color name="exomedia_default_controls_button_pressed">#FFE0E0E0</color>
+    <color name="exomedia_leanback_progress_horizontal_background">#19FFFFFF</color>
+    <color name="exomedia_leanback_progress_horizontal_progress_placeholder">#FF43B2E5</color>
+    <color name="exomedia_leanback_progress_horizontal_progress_secondary">#33FFFFFF</color>
+    <declare-styleable name="EMVideoView"><attr format="boolean" name="defaultControlsEnabled"/></declare-styleable>
+    <dimen name="exomedia_big_notification_height">128dp</dimen>
+    <dimen name="exomedia_big_notification_image_margin">0dp</dimen>
+    <dimen name="exomedia_big_notification_image_size">@dimen/exomedia_big_notification_height</dimen>
+    <dimen name="exomedia_big_notification_secondary_image_size">42dp</dimen>
+    <dimen name="exomedia_big_notification_text_pad">5dp</dimen>
+    <dimen name="exomedia_default_padding">8dp</dimen>
+    <dimen name="exomedia_leanback_controls_bottom_margin">64dp</dimen>
+    <dimen name="exomedia_leanback_controls_height">64dp</dimen>
+    <dimen name="exomedia_leanback_controls_horizontal_margin">132dp</dimen>
+    <dimen name="exomedia_leanback_ripple_selector_size">90dp</dimen>
+    <dimen name="exomedia_min_button_height">44dp</dimen>
+    <dimen name="exomedia_notification_button_height">@dimen/exomedia_min_button_height</dimen>
+    <dimen name="exomedia_notification_image_margin">0dp</dimen>
+    <dimen name="exomedia_notification_image_size">64dp</dimen>
+    <drawable name="exomedia_notification_close">@drawable/exomedia_ic_clear_white</drawable>
+    <drawable name="exomedia_notification_next">@drawable/exomedia_ic_skip_next_white</drawable>
+    <drawable name="exomedia_notification_pause">@drawable/exomedia_ic_pause_white</drawable>
+    <drawable name="exomedia_notification_play">@drawable/exomedia_ic_play_arrow_white</drawable>
+    <drawable name="exomedia_notification_previous">@drawable/exomedia_ic_skip_previous_white</drawable>
+    <style name="exomedia_notification_content" parent="@android:style/TextAppearance.StatusBar.EventContent"/>
+    <style name="exomedia_notification_title" parent="@android:style/TextAppearance.StatusBar.EventContent.Title"/>
+</resources>

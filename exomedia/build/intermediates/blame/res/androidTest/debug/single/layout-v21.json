@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/takumi/Desktop/ExoMedia/exomedia/build/intermediates/res/merged/androidTest/debug/layout-v21/exomedia_video_controls_overlay_leanback.xml",
+        "source": "/Users/takumi/Desktop/ExoMedia/exomedia/build/intermediates/bundles/debug/res/layout-v21/exomedia_video_controls_overlay_leanback.xml"
+    },
+    {
+        "merged": "/Users/takumi/Desktop/ExoMedia/library/build/intermediates/res/merged/androidTest/debug/layout-v21/exomedia_video_controls_overlay_leanback.xml",
+        "source": "/Users/takumi/Desktop/ExoMedia/library/build/intermediates/bundles/debug/res/layout-v21/exomedia_video_controls_overlay_leanback.xml"
+    }
+]

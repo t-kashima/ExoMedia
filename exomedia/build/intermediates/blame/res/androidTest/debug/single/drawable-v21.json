@@ -1,0 +1,34 @@
+[
+    {
+        "merged": "/Users/takumi/Desktop/ExoMedia/exomedia/build/intermediates/res/merged/androidTest/debug/drawable-v21/leanback_progress_horizontal.xml",
+        "source": "/Users/takumi/Desktop/ExoMedia/exomedia/build/intermediates/bundles/debug/res/drawable-v21/leanback_progress_horizontal.xml"
+    },
+    {
+        "merged": "/Users/takumi/Desktop/ExoMedia/library/build/intermediates/res/merged/androidTest/debug/drawable-v21/leanback_progress_horizontal.xml",
+        "source": "/Users/takumi/Desktop/ExoMedia/library/build/intermediates/bundles/debug/res/drawable-v21/leanback_progress_horizontal.xml"
+    },
+    {
+        "merged": "/Users/takumi/Desktop/ExoMedia/exomedia/build/intermediates/res/merged/androidTest/debug/drawable-v21/exomedia_leanback_ripple_selector.xml",
+        "source": "/Users/takumi/Desktop/ExoMedia/exomedia/build/intermediates/bundles/debug/res/drawable-v21/exomedia_leanback_ripple_selector.xml"
+    },
+    {
+        "merged": "/Users/takumi/Desktop/ExoMedia/exomedia/build/intermediates/res/merged/androidTest/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/takumi/Desktop/ExoMedia/exomedia/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/takumi/Desktop/ExoMedia/library/build/intermediates/res/merged/androidTest/debug/drawable-v21/abc_btn_colored_material.xml",
+        "source": "/Users/takumi/Desktop/ExoMedia/library/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-v21/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/takumi/Desktop/ExoMedia/library/build/intermediates/res/merged/androidTest/debug/drawable-v21/exomedia_leanback_ripple_selector.xml",
+        "source": "/Users/takumi/Desktop/ExoMedia/library/build/intermediates/bundles/debug/res/drawable-v21/exomedia_leanback_ripple_selector.xml"
+    },
+    {
+        "merged": "/Users/takumi/Desktop/ExoMedia/library/build/intermediates/res/merged/androidTest/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/takumi/Desktop/ExoMedia/library/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    },
+    {
+        "merged": "/Users/takumi/Desktop/ExoMedia/exomedia/build/intermediates/res/merged/androidTest/debug/drawable-v21/abc_action_bar_item_background_material.xml",
+        "source": "/Users/takumi/Desktop/ExoMedia/exomedia/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/res/drawable-v21/abc_action_bar_item_background_material.xml"
+    }
+]

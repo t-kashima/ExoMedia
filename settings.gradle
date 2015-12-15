@@ -1,1 +1,1 @@
-include ':library', ':demo', ':playbacktests'
+include ':exomedia', ':demo', ':playbacktests'

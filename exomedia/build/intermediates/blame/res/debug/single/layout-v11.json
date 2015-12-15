@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/takumi/Desktop/ExoMedia/library/build/intermediates/res/merged/debug/layout-v11/exomedia_notification_content.xml",
+        "source": "/Users/takumi/Desktop/ExoMedia/library/src/main/res/layout-v11/exomedia_notification_content.xml"
+    },
+    {
+        "merged": "/Users/takumi/Desktop/ExoMedia/exomedia/build/intermediates/res/merged/debug/layout-v11/exomedia_notification_content.xml",
+        "source": "/Users/takumi/Desktop/ExoMedia/exomedia/src/main/res/layout-v11/exomedia_notification_content.xml"
+    }
+]
