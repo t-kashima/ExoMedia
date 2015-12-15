@@ -16,13 +16,17 @@
 package com.devbrackets.android.exomedia.widget;
 
 import android.content.Context;
+import android.graphics.Matrix;
 import android.util.AttributeSet;
-import android.view.SurfaceView;
+import android.util.Log;
+import android.view.TextureView;
+
+import com.devbrackets.android.exomedia.listener.ExoPlayerListener;
 
 /**
  * A SurfaceView that resizes itself to match a specified aspect ratio.
  */
-public class VideoSurfaceView extends SurfaceView {
+public class VideoSurfaceView extends TextureView implements ExoPlayerListener {
     /**
      * The surface view will not resize itself if the fractional difference between its default
      * aspect ratio and the aspect ratio of the video falls below this threshold.
@@ -75,5 +79,32 @@ public class VideoSurfaceView extends SurfaceView {
 
         height = (int)(width / videoAspectRatio);
         super.onMeasure(MeasureSpec.makeMeasureSpec(width, MeasureSpec.EXACTLY), MeasureSpec.makeMeasureSpec(height, MeasureSpec.EXACTLY));
+    }
+
+    @Override
+    public void onStateChanged(boolean playWhenReady, int playbackState) {
+
+    }
+
+    @Override
+    public void onError(Exception e) {
+
+    }
+
+    @Override
+    public void onVideoSizeChanged(int width, int height, int unappliedRotationDegrees, float pixelWidthHeightRatio) {
+        int viewWidth = getWidth();
+        int viewHeight = getHeight();
+
+        float pivotX = viewWidth / 2f;
+        float pivotY = viewHeight / 2f;
+
+        Matrix transform = new Matrix();
+        transform.postRotate(unappliedRotationDegrees, pivotX, pivotY);
+        if (unappliedRotationDegrees == 90 || unappliedRotationDegrees == 270) {
+            float viewAspectRatio = (float) viewHeight / viewWidth;
+            transform.postScale(1 / viewAspectRatio, viewAspectRatio, pivotX, pivotY);
+        }
+        setTransform(transform);
     }
 }
